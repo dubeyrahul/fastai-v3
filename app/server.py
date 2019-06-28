@@ -9,10 +9,12 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 
+'https://drive.google.com/uc?export=download&id=1ObbBot8qJM9rb7CTjwhwkgoW6uS0V5p'
+export_file_name = 'painters-v1.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['andy_warhol','da_vinci','michelangelo', 'monet', 'picasso', 'rembrandt', 
+'van_gogh']
 path = Path(__file__).parent
 
 app = Starlette()
